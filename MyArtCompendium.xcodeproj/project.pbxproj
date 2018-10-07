@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD2F1186216A2E6C00F38FED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1185216A2E6C00F38FED /* AppDelegate.swift */; };
+		CD2F1188216A2E6C00F38FED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1187216A2E6C00F38FED /* ViewController.swift */; };
+		CD2F118B216A2E6C00F38FED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2F1189216A2E6C00F38FED /* Main.storyboard */; };
+		CD2F118E216A2E6C00F38FED /* MyArtCompendium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD2F118C216A2E6C00F38FED /* MyArtCompendium.xcdatamodeld */; };
+		CD2F1190216A2E6D00F38FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2F118F216A2E6D00F38FED /* Assets.xcassets */; };
+		CD2F1193216A2E6D00F38FED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2F1191216A2E6D00F38FED /* LaunchScreen.storyboard */; };
+		CD2F119E216A2E6D00F38FED /* MyArtCompendiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F119D216A2E6D00F38FED /* MyArtCompendiumTests.swift */; };
+		CD2F11A9216A2E6D00F38FED /* MyArtCompendiumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F11A8216A2E6D00F38FED /* MyArtCompendiumUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD2F119A216A2E6D00F38FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD2F117A216A2E6C00F38FED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD2F1181216A2E6C00F38FED;
+			remoteInfo = MyArtCompendium;
+		};
+		CD2F11A5216A2E6D00F38FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD2F117A216A2E6C00F38FED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD2F1181216A2E6C00F38FED;
+			remoteInfo = MyArtCompendium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD2F1182216A2E6C00F38FED /* MyArtCompendium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyArtCompendium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2F1185216A2E6C00F38FED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD2F1187216A2E6C00F38FED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD2F118A216A2E6C00F38FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD2F118D216A2E6C00F38FED /* MyArtCompendium.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyArtCompendium.xcdatamodel; sourceTree = "<group>"; };
+		CD2F118F216A2E6D00F38FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD2F1192216A2E6D00F38FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD2F1194216A2E6D00F38FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2F1199216A2E6D00F38FED /* MyArtCompendiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyArtCompendiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2F119D216A2E6D00F38FED /* MyArtCompendiumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyArtCompendiumTests.swift; sourceTree = "<group>"; };
+		CD2F119F216A2E6D00F38FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2F11A4216A2E6D00F38FED /* MyArtCompendiumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyArtCompendiumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2F11A8216A2E6D00F38FED /* MyArtCompendiumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyArtCompendiumUITests.swift; sourceTree = "<group>"; };
+		CD2F11AA216A2E6D00F38FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD2F117F216A2E6C00F38FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2F1196216A2E6D00F38FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2F11A1216A2E6D00F38FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD2F1179216A2E6C00F38FED = {
+			isa = PBXGroup;
+			children = (
+				CD2F1184216A2E6C00F38FED /* MyArtCompendium */,
+				CD2F119C216A2E6D00F38FED /* MyArtCompendiumTests */,
+				CD2F11A7216A2E6D00F38FED /* MyArtCompendiumUITests */,
+				CD2F1183216A2E6C00F38FED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD2F1183216A2E6C00F38FED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD2F1182216A2E6C00F38FED /* MyArtCompendium.app */,
+				CD2F1199216A2E6D00F38FED /* MyArtCompendiumTests.xctest */,
+				CD2F11A4216A2E6D00F38FED /* MyArtCompendiumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD2F1184216A2E6C00F38FED /* MyArtCompendium */ = {
+			isa = PBXGroup;
+			children = (
+				CD2F1185216A2E6C00F38FED /* AppDelegate.swift */,
+				CD2F1187216A2E6C00F38FED /* ViewController.swift */,
+				CD2F1189216A2E6C00F38FED /* Main.storyboard */,
+				CD2F118F216A2E6D00F38FED /* Assets.xcassets */,
+				CD2F1191216A2E6D00F38FED /* LaunchScreen.storyboard */,
+				CD2F1194216A2E6D00F38FED /* Info.plist */,
+				CD2F118C216A2E6C00F38FED /* MyArtCompendium.xcdatamodeld */,
+			);
+			path = MyArtCompendium;
+			sourceTree = "<group>";
+		};
+		CD2F119C216A2E6D00F38FED /* MyArtCompendiumTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD2F119D216A2E6D00F38FED /* MyArtCompendiumTests.swift */,
+				CD2F119F216A2E6D00F38FED /* Info.plist */,
+			);
+			path = MyArtCompendiumTests;
+			sourceTree = "<group>";
+		};
+		CD2F11A7216A2E6D00F38FED /* MyArtCompendiumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD2F11A8216A2E6D00F38FED /* MyArtCompendiumUITests.swift */,
+				CD2F11AA216A2E6D00F38FED /* Info.plist */,
+			);
+			path = MyArtCompendiumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD2F1181216A2E6C00F38FED /* MyArtCompendium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2F11AD216A2E6D00F38FED /* Build configuration list for PBXNativeTarget "MyArtCompendium" */;
+			buildPhases = (
+				CD2F117E216A2E6C00F38FED /* Sources */,
+				CD2F117F216A2E6C00F38FED /* Frameworks */,
+				CD2F1180216A2E6C00F38FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyArtCompendium;
+			productName = MyArtCompendium;
+			productReference = CD2F1182216A2E6C00F38FED /* MyArtCompendium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD2F1198216A2E6D00F38FED /* MyArtCompendiumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2F11B0216A2E6D00F38FED /* Build configuration list for PBXNativeTarget "MyArtCompendiumTests" */;
+			buildPhases = (
+				CD2F1195216A2E6D00F38FED /* Sources */,
+				CD2F1196216A2E6D00F38FED /* Frameworks */,
+				CD2F1197216A2E6D00F38FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD2F119B216A2E6D00F38FED /* PBXTargetDependency */,
+			);
+			name = MyArtCompendiumTests;
+			productName = MyArtCompendiumTests;
+			productReference = CD2F1199216A2E6D00F38FED /* MyArtCompendiumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD2F11A3216A2E6D00F38FED /* MyArtCompendiumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2F11B3216A2E6D00F38FED /* Build configuration list for PBXNativeTarget "MyArtCompendiumUITests" */;
+			buildPhases = (
+				CD2F11A0216A2E6D00F38FED /* Sources */,
+				CD2F11A1216A2E6D00F38FED /* Frameworks */,
+				CD2F11A2216A2E6D00F38FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD2F11A6216A2E6D00F38FED /* PBXTargetDependency */,
+			);
+			name = MyArtCompendiumUITests;
+			productName = MyArtCompendiumUITests;
+			productReference = CD2F11A4216A2E6D00F38FED /* MyArtCompendiumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD2F117A216A2E6C00F38FED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Big Boi";
+				TargetAttributes = {
+					CD2F1181216A2E6C00F38FED = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CD2F1198216A2E6D00F38FED = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CD2F1181216A2E6C00F38FED;
+					};
+					CD2F11A3216A2E6D00F38FED = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CD2F1181216A2E6C00F38FED;
+					};
+				};
+			};
+			buildConfigurationList = CD2F117D216A2E6C00F38FED /* Build configuration list for PBXProject "MyArtCompendium" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD2F1179216A2E6C00F38FED;
+			productRefGroup = CD2F1183216A2E6C00F38FED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD2F1181216A2E6C00F38FED /* MyArtCompendium */,
+				CD2F1198216A2E6D00F38FED /* MyArtCompendiumTests */,
+				CD2F11A3216A2E6D00F38FED /* MyArtCompendiumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD2F1180216A2E6C00F38FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2F1193216A2E6D00F38FED /* LaunchScreen.storyboard in Resources */,
+				CD2F1190216A2E6D00F38FED /* Assets.xcassets in Resources */,
+				CD2F118B216A2E6C00F38FED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2F1197216A2E6D00F38FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2F11A2216A2E6D00F38FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD2F117E216A2E6C00F38FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2F1188216A2E6C00F38FED /* ViewController.swift in Sources */,
+				CD2F118E216A2E6C00F38FED /* MyArtCompendium.xcdatamodeld in Sources */,
+				CD2F1186216A2E6C00F38FED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2F1195216A2E6D00F38FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2F119E216A2E6D00F38FED /* MyArtCompendiumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2F11A0216A2E6D00F38FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2F11A9216A2E6D00F38FED /* MyArtCompendiumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD2F119B216A2E6D00F38FED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD2F1181216A2E6C00F38FED /* MyArtCompendium */;
+			targetProxy = CD2F119A216A2E6D00F38FED /* PBXContainerItemProxy */;
+		};
+		CD2F11A6216A2E6D00F38FED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD2F1181216A2E6C00F38FED /* MyArtCompendium */;
+			targetProxy = CD2F11A5216A2E6D00F38FED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD2F1189216A2E6C00F38FED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2F118A216A2E6C00F38FED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD2F1191216A2E6D00F38FED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2F1192216A2E6D00F38FED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD2F11AB216A2E6D00F38FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD2F11AC216A2E6D00F38FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD2F11AE216A2E6D00F38FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BQMVPV2LM;
+				INFOPLIST_FILE = MyArtCompendium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wauters.art.MyArtCompendium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD2F11AF216A2E6D00F38FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BQMVPV2LM;
+				INFOPLIST_FILE = MyArtCompendium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wauters.art.MyArtCompendium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD2F11B1216A2E6D00F38FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BQMVPV2LM;
+				INFOPLIST_FILE = MyArtCompendiumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wauters.art.MyArtCompendiumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyArtCompendium.app/MyArtCompendium";
+			};
+			name = Debug;
+		};
+		CD2F11B2216A2E6D00F38FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BQMVPV2LM;
+				INFOPLIST_FILE = MyArtCompendiumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wauters.art.MyArtCompendiumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyArtCompendium.app/MyArtCompendium";
+			};
+			name = Release;
+		};
+		CD2F11B4216A2E6D00F38FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BQMVPV2LM;
+				INFOPLIST_FILE = MyArtCompendiumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wauters.art.MyArtCompendiumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyArtCompendium;
+			};
+			name = Debug;
+		};
+		CD2F11B5216A2E6D00F38FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BQMVPV2LM;
+				INFOPLIST_FILE = MyArtCompendiumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wauters.art.MyArtCompendiumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyArtCompendium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD2F117D216A2E6C00F38FED /* Build configuration list for PBXProject "MyArtCompendium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2F11AB216A2E6D00F38FED /* Debug */,
+				CD2F11AC216A2E6D00F38FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2F11AD216A2E6D00F38FED /* Build configuration list for PBXNativeTarget "MyArtCompendium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2F11AE216A2E6D00F38FED /* Debug */,
+				CD2F11AF216A2E6D00F38FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2F11B0216A2E6D00F38FED /* Build configuration list for PBXNativeTarget "MyArtCompendiumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2F11B1216A2E6D00F38FED /* Debug */,
+				CD2F11B2216A2E6D00F38FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2F11B3216A2E6D00F38FED /* Build configuration list for PBXNativeTarget "MyArtCompendiumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2F11B4216A2E6D00F38FED /* Debug */,
+				CD2F11B5216A2E6D00F38FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD2F118C216A2E6C00F38FED /* MyArtCompendium.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD2F118D216A2E6C00F38FED /* MyArtCompendium.xcdatamodel */,
+			);
+			currentVersion = CD2F118D216A2E6C00F38FED /* MyArtCompendium.xcdatamodel */;
+			path = MyArtCompendium.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD2F117A216A2E6C00F38FED /* Project object */;
+}
