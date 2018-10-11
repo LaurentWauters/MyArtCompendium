@@ -53,14 +53,17 @@ class ArtistViewController: UIViewController, UICollectionViewDelegate, UICollec
         return cell
     }
     
-    func getBackground() -> UIImageView {
+    func getBackground() -> UIView {
         let ranNum = Int.random(in: 1 ... 2)
         
-        let iv = UIImageView()
-        iv.image = UIImage(named: "wp\(ranNum)")
+        let img = UIImage(named: "wp\(ranNum).jpg")
+        let v = UIView()
+        let iv = UIImageView(frame: CGRect(origin: CGPoint(x: 0.0, y: 0.0), size: img!.size))
+        iv.image = img
+        v.addSubview(iv)
         //iv.contentMode = .scaleAspectFill
         
-        return iv
+        return v
     }
     
 }
