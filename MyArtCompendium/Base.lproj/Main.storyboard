@@ -18,10 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wp1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iO1-oG-FHY">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="qTq-Eg-HOE">
                                 <rect key="frame" x="0.0" y="120" width="375" height="547"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -70,6 +66,21 @@
             </objects>
             <point key="canvasLocation" x="1064.8" y="745.27736131934034"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Sum-pk-EqS">
+            <objects>
+                <viewController id="4UL-Xq-Nco" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WMV-iu-nzD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zGL-y1-5VU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jRG-6Z-ZuH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2017" y="745"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="YIf-G5-yQm">
             <objects>
@@ -89,7 +100,4 @@
             <point key="canvasLocation" x="-279" y="745"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="wp1.jpg" width="1280" height="720"/>
-    </resources>
 </document>

@@ -20,6 +20,7 @@
 		CD2F11C3216F448700F38FED /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2F11C2216F448700F38FED /* star.png */; };
 		CD2F11C7216F526800F38FED /* wp2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD2F11C5216F526800F38FED /* wp2.jpg */; };
 		CD2F11C8216F526800F38FED /* wp1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD2F11C6216F526800F38FED /* wp1.jpg */; };
+		CD2F11CA216F564F00F38FED /* ArtistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F11C9216F564F00F38FED /* ArtistDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		CD2F11C2216F448700F38FED /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		CD2F11C5216F526800F38FED /* wp2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wp2.jpg; sourceTree = "<group>"; };
 		CD2F11C6216F526800F38FED /* wp1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wp1.jpg; sourceTree = "<group>"; };
+		CD2F11C9216F564F00F38FED /* ArtistDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				CD2F11BA216A3F8C00F38FED /* Artist.swift */,
 				CD2F11BC216A5CC400F38FED /* ArtistViewController.swift */,
 				CD2F11BF216A65B600F38FED /* ArtistCollectionViewCell.swift */,
+				CD2F11C9216F564F00F38FED /* ArtistDetailViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				CD2F11BB216A3F8C00F38FED /* Artist.swift in Sources */,
 				CD2F1186216A2E6C00F38FED /* AppDelegate.swift in Sources */,
 				CD2F11BD216A5CC400F38FED /* ArtistViewController.swift in Sources */,
+				CD2F11CA216F564F00F38FED /* ArtistDetailViewController.swift in Sources */,
 				CD2F11C0216A65B600F38FED /* ArtistCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

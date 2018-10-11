@@ -29,6 +29,7 @@ class ArtistViewController: UIViewController, UICollectionViewDelegate, UICollec
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.register(ArtistCollectionViewCell.self, forCellWithReuseIdentifier: "ArtistCell")
+        collectionView.backgroundView = getBackground()
         
     }
     
@@ -48,8 +49,18 @@ class ArtistViewController: UIViewController, UICollectionViewDelegate, UICollec
         let image = UIImage(named: "star.png")
         cell.textLabel.text = "Text"
         cell.imageView.maskCircle(anyImage: image!)
-        cell.backgroundColor = UIColor.black
+        cell.backgroundColor = UIColor.gray
         return cell
+    }
+    
+    func getBackground() -> UIImageView {
+        let ranNum = Int.random(in: 1 ... 2)
+        
+        let iv = UIImageView()
+        iv.image = UIImage(named: "wp\(ranNum)")
+        //iv.contentMode = .scaleAspectFill
+        
+        return iv
     }
     
 }
